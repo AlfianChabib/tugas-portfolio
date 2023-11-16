@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ececec;
+  margin-bottom: 4rem;
+  
+}
+
+.container {
+  @apply flex flex-col relative xl:max-w-screen-xl lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm mx-auto;
+}
+
+img {
+  @apply max-w-full h-auto
+}
+
+.skills-title {
+  @apply flex justify-center items-center gap-x-2 text-base font-semibold mb-4
+}
